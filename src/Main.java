@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args) {
+        // Задача № 1
         isLeapYear(2024);
         System.out.println();
+        // Задача № 2
         chooseUserApp(1, 2015);
         System.out.println();
+        // Задача № 3
         int deliveryDays = calculateDeliveryTime (95);
         if (deliveryDays == 0) {
             System.out.println("Доставка не осуществляется");
